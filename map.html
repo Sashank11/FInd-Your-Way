@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
+    <link rel="stylesheet" href="maps.css">
+    <title>Corona Map</title>
+</head>
+<body>
+    <!-- <div class="container"> -->
+    <!-- <h1> Covid 19 Situation Map</h1> -->
+<!-- <h2></h2> -->
+    <!-- </div> -->
+    <div id='map'></div>
+    <div class='container'>
+    <navbar>
+    </navbar>
+    </div>
+</body>
+
+
+<script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
+
+<script>
+mapboxgl.accessToken = 'pk.eyJ1IjoibmVvMTEiLCJhIjoiY2t3YnhyY21qMGV6ZTMxbjIzN2YwcWx2OCJ9.XRODjk_VUa7ztcG-8a0NwQ';
+var map = new mapboxgl.Map({
+container: 'map',
+style: 'mapbox://styles/mapbox/streets-v11',
+zoom: 4,
+center: [79,20]
+});
+</script>
+
+<script src="maps.js"></script>
+</html>

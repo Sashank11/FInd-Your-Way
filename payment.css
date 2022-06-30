@@ -1,0 +1,95 @@
+body {
+    font-family: Arial;
+    font-size: 17px;
+    padding: 8px;
+}
+.heading{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.heading span{
+    font-size: 2rem;
+    background:#323232;
+    color:#69c6ba;
+    border-radius: .5rem;
+    padding:.2rem 1rem;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.error {
+    color: red;
+    border-color: red;
+}
+
+.row {
+    margin: 0 -10px;
+}
+
+
+.col-50,.col-75 {
+    padding: 0 16px;
+}
+
+.container {
+    background-color: #FFFFFF;
+    padding: 3px 18px 13px 18px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    box-shadow: 0 0 2rem 0 rgba(168, 180, 194, 0.37);
+}
+
+
+input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid rgb(130, 26, 26);
+    border-radius: 1px;
+}
+
+label {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+}
+
+.btn {
+    background:black;
+    color:cornflowerblue;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+    box-shadow: 0 0 1rem 0 rgba(99, 123, 150, 0.329);
+
+}
+
+.btn:hover {
+    background:rgb(72, 75, 75);
+    color:cornflowerblue;
+}
+
+a {
+    color: #2196F3;
+}
+
+hr {
+    border: 1px solid lightgrey;
+}
+
+span.price {
+    float: right;
+    color: grey;
+}

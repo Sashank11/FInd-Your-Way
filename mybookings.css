@@ -1,0 +1,70 @@
+*{
+text-align: center;
+}
+
+body
+{  
+
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(231, 225, 225, 0.5), rgba(223, 215, 215, 0.5)), url("images/Sikkim.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.hero{
+margin-top:100px;
+font-size:large; 
+}
+
+
+.table-f{
+font-size: 2rem;
+width: 60%;
+height: 100%;
+text-align: center;
+position: center;
+margin-left: auto;
+margin-right: auto;
+
+
+
+}
+.maker {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgb(114, 179, 253);
+    overflow: hidden;
+}
+.makerr {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    overflow: hidden;
+    
+}
+ th{
+
+border: 2px solid black
+}
+td{
+    border: 2px solid black;
+} 
+
+#one
+{
+ margin-top: 20px;
+ color: #181D31;
+ text-align: center;
+ font-size: 100px;
+ margin-bottom: 0px;
+}
+
+#three {
+ margin-top: 20px;
+ margin-bottom: 0px;
+ color: rgb(26, 17, 80);
+ text-align: center;
+ font-size: 40px;
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Package Booking form</title>
+    <link rel="stylesheet" href="packagebook.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <h3 class="heading">
+        <span>P</span>
+        <span>A</span>
+        <span>C</span>
+        <span>K</span>
+        <span>A</span>
+        <span>G</span>
+        <span>E</span>&nbsp;&nbsp;
+        <span>B</span>
+        <span>O</span>
+        <span>O</span>
+        <span>K</span>
+        <span>I</span>
+        <span>N</span>
+        <span>G</span>
+
+    </h3>
+    <br><br><br><br>
+    <div class="container">
+        <form class="form-group" action="package_insert.php" method="POST">
+            <div class="form">
+
+                <div class="first-group">
+
+                    <div class="content">
+                        <i class="fa fa-user"></i>
+                        <input type="text" id="input-group" name = "fname" placeholder="First name">
+                    </div>
+
+                    <div class="content">
+                        <i class="fa fa-phone"></i>
+                        <input type="number" id="input-group" name= "phno" placeholder="Phone number">
+                    </div>
+
+                    <div class="content">
+                        <i class="fa fa-calendar" ></i>
+                        <input type="text" id="input-group" name = "dpdate" placeholder="Departure Date">
+                    </div>
+
+                    <div class="content">
+                        <i class="fa fa-users"></i>
+                        <select id="input-group" name = "package" style="background-color: black;">
+                            <option value="">Select Package</option>
+                            <option value="paris">Paris,France</option>
+                            <option value="amsterdam">Amsterdam,Netherland</option>
+                            <option value="everestbase">Everest Basecamp,Nepal</option>
+                            <option value="kathmandu">Kathmandu,Nepal</option>
+                            <option value="maldives">Maldives</option>
+                            <option value="rara"> Rara,Nepal</option>
+                        </select>
+                    </div>
+
+                </div>
+
+                <div class="second-group">
+
+                    <div class="content">
+                        <i class="fa fa-user"></i>
+                        <input type="text" id="input-group" name = "lname" placeholder="Last name">
+                    </div>
+
+                    <div class="content">
+                        <i class="fa fa-users"></i>
+                        <select id="input-group" name = "guest" style="background-color: black;">
+                            <option value="">No.of traveller</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                        </select>
+                    </div>
+
+                    <div class="content">
+                        <i class="fa fa-calendar"></i>
+                        <input type="text" id="input-group" name = "ardate"placeholder="Arrival Date">
+                    </div>
+
+                    <div class="content">
+                        <i class="fa fa-users"></i>
+                        <select id="input-group" name = "room" style="background-color: black;">
+                            <option value="">Room Type</option>
+                            <option value="ac">AC</option>
+                            <option value="nonac">Non-AC</option>
+                        </select>
+                    </div>
+            
+                </div>
+
+                <button type="submit" value="Submit" class="submit-btn">Proceed to Payment</button>
+
+            </div>
+        </form>
+    </div>
+</body>
+</html>

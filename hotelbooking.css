@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("images/rara.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.heading{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.heading span{
+    font-size: 2.5rem;
+    background:#323232;
+    color:#69c6ba;
+    border-radius: .5rem;
+    padding:.2rem 1rem;
+}
+
+.form{
+    background-color: #000;
+    height:450px;
+    width:800px;
+    margin: auto;
+    margin-top: 10px;
+    opacity:0.7;
+}
+
+.first-group{
+    border:none;
+    width:400px;
+    margin-top: 50px;
+    position: absolute;
+
+}
+
+.content{
+    border: 1px solid #fff;
+    margin:10px;
+    margin-left: 8px;
+    padding:8px;
+    font-size: 20px;
+}
+
+.content #input-group{
+    border:none;
+    outline:none;
+    background: transparent;
+    margin-top: 10px;
+    margin-left:8px;
+    width:300px;
+    font-size:1.5rem;
+    color:#fff;
+}
+
+::placeholder{
+    color:#fff;
+}
+
+.fa{
+    display:inline-block;
+    color:red;
+    border-right:1px solid #fff;
+    padding:8px;
+    margin-left: 8px;
+}
+
+.second-group{
+    margin-left:400px;
+    border:none;
+    width:400px;
+    margin-top: 50px;
+    position: absolute;
+}
+
+.submit-btn{
+    margin-top: 370px;
+    margin-left: 250px;
+    background: transparent;
+    color:#fff;
+    width:300px;
+    border:1px solid red;
+    outline:none;
+    padding:10px;
+    font-size: 20px;
+}

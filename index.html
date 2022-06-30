@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>find Your Way Application</title>
+
+    <script src="https://kit.fontawesome.com/ee8d71ea8d.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="CSS/home.css">
+    
+
+</head>
+
+
+
+
+
+<body>
+
+<!-- header section -->
+
+<header>
+
+    <!-- <div id="menu-bar" class="fas fa-bars"></div> -->
+
+    <a href="#" class="logo"><span>F</span>YW</a>
+
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="hotels.html">Book hotels</a>
+        <a href="package.html">Packages</a>
+        <a href="services.html">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+        <a href="map.html">Incident Status</a>
+        <!-- <a href = "mybookings.php">My Bookings</a> -->
+    </nav>
+
+    <div class="icons">
+        <!-- <i class="fas fa-user" id="login-btn"></i> -->
+            <form method="POST" action ="mybookings.php" >
+        <input type ="text" name="nname" placeholder="Check Bookings" class="newtext">
+        </form>
+    </div>
+    <nav class = "navbar">
+        <span>
+        <a href="login.html">Logout</a>
+        
+        </span>
+    </nav>
+
+
+</header>
+
+
+<!-- home section  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>Find Your Way</h3>
+        <br>
+        <p>The journey matters more than the destination</p>
+        <br>
+        <a href="offers.html" class="btn exciting">Exciting offers</a>
+    </div>
+
+    <div class="controls">
+        <span class="vid-btn active" data-src="images/vid-1.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-2.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-3.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-4.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-5.mp4"></span>
+    </div>
+
+    <div class="video-container">
+        <video src="images/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+
+</section>
+
+<!-- book section -->
+
+<section class="book" id="book">
+
+    <h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>e</span>
+        <span class="space"></span>
+        <span>n</span>
+        <span>o</span>
+        <span>w</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/newbook.jpg" alt="">
+        </div>
+
+        <form action="reserve_insert.php" method="POST">
+            <div class="inputBox">
+                <h3>First Name</h3>
+                <input type="text" placeholder="First name" name ="fname">
+            </div>
+            <div class="inputBox">
+                <h3>Last Name</h3>
+                <input type="text" placeholder="Last Name" name="lname">
+            </div>
+            <div class="inputBox">
+                <h3>Email</h3>
+                <input type="text" placeholder="Email" name ="email">
+            </div>
+            <div class="inputBox">
+                <h3>Date</h3>
+                <input type="Date" name ="date">
+            </div>
+            <div class="inputBox">
+                <h3>Reservation type</h3>
+                <input type="text" placeholder="Reservation type" name = "type">
+            </div>
+            <input type="submit" class="btn" value="reserve now">
+        </form>
+
+    </div>
+
+</section>
+<!-- gallery section  -->
+
+<section class="gallery" id="gallery">
+
+    <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/swayambhunath.jpg" alt="">
+        </div>
+        <div class="box">
+            <img src="images/rara.jpg" alt="">
+        </div>
+        <div class="box">
+            <img src="images/namche.jpg" alt="">
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- review section  -->
+
+<section class="review" id="review">
+
+    <h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+    </h1>
+
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/pic1.png" alt="">
+                    <h3>Mickey Kumar Rouniyar</h3>
+                    <p>Great food ! I get to eat pre book flight meals everytime i book a flight. </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/pic1.png" alt="">
+                    <h3>Prason Poudel</h3>
+                    <p>Really good services would book family trips and honeymoon soon</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/pic1.png" alt="">
+                    <h3>Sashank Rijal</h3>
+                    <p>Excellent services.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+
+</section>
+
+
+<!-- contact section  -->
+
+<section class="contact" id="contact">
+    
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/contact-img.jpg" alt="">
+        </div>
+
+        <form action="contactme.php" method="POST">
+            <div class="inputBox">
+                <input type="text" name="name" placeholder="name">
+                <input type="text" name="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <input type="text" name="number" placeholder="number">
+                <input type="text" name="subject" placeholder="subject">
+            </div>
+            <textarea placeholder="message" name="message" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="send message">
+        </form>
+
+    </div>
+    
+</section>
+
+
+
+<!-- footer section  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>About us</h3>
+            <p>Find your way application built for offering resaonable packages for your dream destination.</p>
+        </div>
+        <div class="box">
+            <h3>branch locations</h3>
+            <a href="#">Vellore</a>
+            <a href="#">Kathmandu</a>
+            <a href="#">Pokhara</a>
+            <a href="#">Chennai</a>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">book hotels</a>
+            <a href="#">packages</a>
+            <a href="#">services</a>
+            <a href="#">gallery</a>
+            <a href="#">review</a>
+            <a href="#">contact</a>
+        </div>
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">instagram</a>
+    </div>
+
+    <h1 class="credit"> created by <span> Sashank Mickey Prason Corp. </span> | IWP Project</h1>
+
+</section>
+
+</body>
+</html>

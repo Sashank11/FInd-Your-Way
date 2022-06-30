@@ -1,0 +1,59 @@
+<html>
+    <head>
+       <title>login and registration form </title>
+       <link rel="stylesheet" href="login.css">
+    </head>
+    <body>
+      <div class="hero">
+        <div class="form-box">
+          <div class="button-box">
+            <div id="btn"></div>
+            <button type="button" class="toggle" onclick="login()">log in</button>
+            <button type="button" class="toggle" onclick="register()">register</button>
+          </div>
+          <h1> Find Your Way </h1>
+          <form id="login" class="inputs" action="loginval.php" method="POST">
+            <input type="text" class="inputf" name="username" placeholder="USER ID" required>
+            <input type="password" class="inputf" name="password" placeholder="PASSWORD" required>
+            <input type="checkbox" class="checkf"><span>Remember passsword</span>
+            <button type="submit" class="submitf">LOG IN</button>
+
+          </form>
+          <form id="register" class="inputs" action="insert.php" method="POST">
+            <input type="text" class="inputf" name="username" placeholder="USER ID" required>
+            <input type="Email" class="inputf" name="email" placeholder="EMAIL ID" required>
+            <input type="password" class="inputf" name="password" placeholder="PASSWORD" required>
+            <input type="checkbox" class="checkf"><span>I agree to terms and conditions</span>
+            <button type="submit" class="submitf">Register</button>
+
+          </form>
+        </div>
+      </div>
+      <script>
+        var x=document.getElementById("login");
+        var y=document.getElementById("register");
+        var z=document.getElementById("btn");
+
+        function register()
+        {
+          x.style.left="-400px";
+          y.style.left="50px";
+          z.style.left="110px";
+
+        }
+        function login()
+        {
+          x.style.left="50px";
+          y.style.left="450px";
+          z.style.left="0px";
+
+        }
+
+      </script>
+      <marquee class="marr" behaviour ="scroll" width="100%" direction="left" height="200px" scrollamount="12">
+        Find Your Way welcomes you to our official website. Book tickets, packages, rooms, etc with exciting deals. Check for reviews or contact us on mickey@gmail.com. You just need to Find Your Way.
+      </marquee>
+
+
+    </body>    
+</html>
